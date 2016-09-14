@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mig | Student Picker</title>
+  <link rel="stylesheet" href="studentPicker.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+	<div id="mainContainer">
+    <h2>Enter Student Names</h2>
+    <input type="text" value="" id="names">
+    <button id="addBtn">ADD</button>
+    <button id="randomBtn">Student of the month</button>
+    <button id="teamsBtn">Teams</button>
+    <input type="number" id="teamNum" min="1">
+    <ul id="studentList"></ul>
+    <label id="monthLabel">The Student of the Month is</label>
+    <h1 id="monthStudent"></h1>
+    <ul id="teamsContainer">
+    </ul>
+  </div>
+  <script src="studentPicker.js"></script>
+</body>
+</html>

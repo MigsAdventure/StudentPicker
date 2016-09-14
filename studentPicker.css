@@ -1,0 +1,101 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0; 
+   list-style: none;
+   text-decoration: none;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-size:2em;
+  background:skyblue;
+}
+
+h2 {
+  margin:0.5em auto;
+}
+
+button {
+  font-size:0.5em;
+  padding:10px;
+  background: black;
+  color:white;
+  border:solid 1px red;
+  box-shadow: 0 0 1px green,
+              0 0 2px green,
+              0 0 3px green;
+}
+
+button:hover {
+  background:grey;
+  -webkit-transform: translateY(3px);
+}
+
+
+#monthLabel {
+  display:none;
+}
+
+#monthStudent {
+  padding:0.2em;
+}
+
+#names {
+  display: block;
+  margin: .5em auto;
+  width: 7em;
+  height:1.5em;
+  font-size:0.8em;
+  vertical-align: bottom;
+}
+
+#teamNum {
+  text-align: center;
+  height:1.5em;
+  width:2.5em;
+  font-size:0.8em;
+  vertical-align: bottom;
+}
+
+#studentList {
+  padding:1em;
+}
+
+#studentList li {
+  display: inline-block;
+  width:auto;
+  padding: 12px;
+  margin:0.2em;
+  border:1px black solid;
+}
+
+#studentList li:hover {
+  background:green;
+  color:white;
+}
+
+.teams {
+  display: inline-block;
+  border:solid black 1px;
+  padding:15px;
+  background:dodgerblue;
+  color:white;
+  margin:0.5em;
+  
+}
+
+.teams li {
+  color:white;
+  background:cornflowerblue;
+  width:auto;
+  padding:10px;
+  box-shadow: 0 0 1px black,
+              0 0 2px black,
+              0 0 3px black,
+              0 0 5px black;
+}
+
+
